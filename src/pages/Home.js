@@ -8,7 +8,7 @@ const Home = (props) => {
     <Container>
       <Section>
         <h5>
-          <a>Hiring in a hurry? - </a>
+          <div>Hiring in a hurry? - </div>
         </h5>
         <p>
           Find talented pros in record time with Upwork and keep business
@@ -29,11 +29,11 @@ const Container = styled.div`
   max-width: 100%;
 `;
 
-const Content = styled.div`
-  max-width: 1128px;
-  margin-left: auto;
-  margin-right: auto;
-`;
+// const Content = styled.div`
+//   max-width: 1128px;
+//   margin-left: auto;
+//   margin-right: auto;
+// `;
 
 const Section = styled.section`
   min-height: 50px;
@@ -46,7 +46,7 @@ const Section = styled.section`
   h5 {
     color: #0a66c2;
     font-size: 14px;
-    a {
+    div {
       font-weight: 700;
     }
   }
@@ -69,7 +69,6 @@ const Layout = styled.div`
   grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 7fr);
   column-gap: 25px;
   row-gap: 25px;
-  /* grid-template-row: auto; */
   margin: 25px 0;
   @media (max-width: 768px) {
     display: flex;

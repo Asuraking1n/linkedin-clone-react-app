@@ -4,9 +4,9 @@ const Login = (props) => {
   return (
     <Container>
       <Nav>
-        <a href="/">
+        <div>
           <img src="/images/login-logo.svg" alt="" />
-        </a>
+        </div>
         <div>
           <Join href="home">Join now</Join>
           <SignIn href="home">Sign in</SignIn>
@@ -42,7 +42,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   flex-wrap: nowrap;
 
-  & > a {
+  & > div {
     width: 135px;
     height: 34px;
     @media (max-width: 768px) {

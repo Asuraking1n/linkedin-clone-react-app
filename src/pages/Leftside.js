@@ -6,22 +6,22 @@ const Leftside = (props) => {
       <ArtCard>
         <UserInfo>
           <CardBackground />
-          <a>
+          <div>
             <Photo />
             <Link>Welcome, there!</Link>
-          </a>
-          <a>
+          </div>
+          <div>
             <AddPhotoText>Add a photo</AddPhotoText>
-          </a>
+          </div>
         </UserInfo>
         <Widget>
-          <a>
+          <div>
             <div>
               <span>Connections</span>
               <span>Grow your network</span>
             </div>
             <img src="/images/widget-icon.svg" alt="" />
-          </a>
+          </div>
         </Widget>
         <Item>
           <span>
@@ -32,21 +32,21 @@ const Leftside = (props) => {
       </ArtCard>
 
       <CommunityCard>
-        <a>
+        <div>
           <span>Groups</span>
-        </a>
-        <a>
+        </div>
+        <div>
           <span>
             Events
             <img src="/images/plus-icon.svg" alt="" />
           </span>
-        </a>
-        <a>
+        </div>
+        <div>
           <span>Follow Hashtags</span>
-        </a>
-        <a>
+        </div>
+        <div>
           <span>Discover more</span>
-        </a>
+        </div>
       </CommunityCard>
     </Container>
   );
@@ -119,7 +119,7 @@ const Widget = styled.div`
   padding-top: 12px;
   padding-bottom: 12px;
 
-  & > a {
+  & > div {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
@@ -177,7 +177,7 @@ const CommunityCard = styled(ArtCard)`
   text-align: left;
   display: flex;
   flex-direction: column;
-  a {
+  div {
     color: black;
     padding: 4px 12px 4px 12px;
     font-size: 12px;

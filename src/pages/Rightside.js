@@ -11,18 +11,18 @@ const Rightside = (props) => {
 
         <FeedList>
           <li>
-            <a>
+            <div>
               <Avatar />
-            </a>
+            </div>
             <div>
               <span>#Linkedin</span>
               <button>Follow</button>
             </div>
           </li>
           <li>
-            <a>
+            <div>
               <Avatar />
-            </a>
+            </div>
             <div>
               <span>#Video</span>
               <button>Follow</button>
@@ -112,7 +112,7 @@ const Avatar = styled.div`
   margin-right: 8px;
 `;
 
-const Recommendation = styled.a`
+const Recommendation = styled.div`
   color: #0a66c2;
   display: flex;
   align-items: center;

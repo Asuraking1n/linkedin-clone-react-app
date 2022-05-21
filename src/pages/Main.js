@@ -39,14 +39,14 @@ const Main = (props) => {
       </div></Sharebox>
       <div>
         <Artical><Sharedactor>
-          <a >
+          <div>
             <img src="images/profile.jpg" alt="" />
             <div>
               <span>Nishant Tiwari</span>
               <span>nishant88tiwari@gmail.com          <b>follows</b></span>
               <span>25 june</span>
             </div>
-          </a>
+          </div>
           <button>
            <MoreHorizIcon/>
           </button>
@@ -55,9 +55,9 @@ const Main = (props) => {
           This is my linkedin clone ❤️, Hope you like it ☣️ 
         </Description>
         <Sharedimg>
-          <a >
+          <div >
             <img src="images/card1.jpg" alt="" />
-          </a>
+          </div>
         </Sharedimg>
         <Socialcount>
         
@@ -68,9 +68,9 @@ const Main = (props) => {
               <span>75</span>
             </button>
           </li>
-          <li><a>
+          <li><div>
             2 comments
-          </a></li>
+          </div></li>
         </Socialcount>
         <Socialaction>
         <button>
@@ -173,7 +173,7 @@ padding: 12px 16px 0;
 margin-bottom: 8px;
 align-items: center;
 display:flex;
-a {
+div {
   margin-right:12px;
   flex-grow:1;
   overflow: hidden;
